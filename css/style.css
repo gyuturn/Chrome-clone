@@ -65,6 +65,9 @@
     height:250px;
     color:snow;
 }
+#weather{
+    color:white;
+}
 h2  #date{
     font-size: 30px;
 }
