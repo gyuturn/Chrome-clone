@@ -106,11 +106,30 @@
     bottom: -5px;
     display:flex;
     justify-content: center;
-    font-size:30px;
-    backdrop-filter: blur(200px) opacity(70%) ;
-  
+    font-size:25px;
+    backdrop-filter: blur(50px) opacity(50%) ;
+    height:26px;
+    color:white;
+    border-radius: 20px;
+    
     
 }
+#temp{
+    color:white;
+}
+#mositure{
+    color:white;
+}
+#arrowdown
+{
+    cursor: pointer;
+    font-size:25px;
+    backdrop-filter: blur(50px) opacity(50%) ;
+    height:26px;
+    color:white;
+    border-radius: 20px;
+}
+
 h2  #date{
     font-size: 30px;
 }
@@ -119,6 +138,22 @@ h2> #time{
 }
 .hidden{
     display:none;
+}
+.hiddenweather{
+    display:none;
+}
+.long{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 242px;
+    height: 106px;
+    bottom: -110px;
+  
+    border-radius: 20px;
+
 }
 body{
     height:100vh;
